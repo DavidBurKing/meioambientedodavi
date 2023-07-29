@@ -115,13 +115,6 @@ main {
 }
 
 
-
-.footerNav a {
-    font-family: 'Raleway', sans-serif;
-}
-
-
-
 @media (max-width:800px) {
     .Cards {
         flex-direction: column;
@@ -140,23 +133,5 @@ main {
     .cardDescription {
         width: auto;
         margin: 0em 1em;
-    }
-
-    .siteFooter {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .siteFooter .footerContent, .siteFooter .footerNav {
-        width: 216px;
-    }
-
-    .footerContent {
-        padding: 0em 0em 1em 0em;
-    }
-
-    .footerNav {
-        padding: 1em 0em 0em 0em;
-        border-top: 3px solid white;
     }
 }
