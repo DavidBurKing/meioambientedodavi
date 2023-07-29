@@ -23,7 +23,7 @@ module.exports = {
         'Bone': '#CFCBBD'
       },
       screens: {
-        'DisposG': '425px',
+        'DisposG': '426px',
         'ResponsiveExtraBig': '800px',
         'ResponsiveBig': '690px',
         'ResponsiveMid': '500px'

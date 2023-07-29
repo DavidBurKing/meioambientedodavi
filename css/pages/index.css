@@ -2,6 +2,29 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+:root {
+    --ForestGreen: #239D12;
+    --DarkMossGreen: #505F04;
+    --Bone: #CFCBBD; 
+}
+
+::selection {
+    color: var(--ForestGreen);
+    background-color: var(--DarkMossGreen);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--DarkMossGreen);
+}
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
@@ -72,7 +95,7 @@ main {
     font-family: 'Montserrat', sans-serif;
 }
 
-.VisãoGeral h1, p {
+.VisãoGeral h1, .VisãoGeral p {
     font-family: 'Raleway', sans-serif;
 }
 
@@ -90,6 +113,14 @@ main {
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
 }
+
+
+
+.footerNav a {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 
 @media (max-width:800px) {
     .Cards {
@@ -109,5 +140,23 @@ main {
     .cardDescription {
         width: auto;
         margin: 0em 1em;
+    }
+
+    .siteFooter {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .siteFooter .footerContent, .siteFooter .footerNav {
+        width: 216px;
+    }
+
+    .footerContent {
+        padding: 0em 0em 1em 0em;
+    }
+
+    .footerNav {
+        padding: 1em 0em 0em 0em;
+        border-top: 3px solid white;
     }
 }

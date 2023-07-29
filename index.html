@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="css/pages/index.css">
     <link rel="stylesheet" href="css/global/header.css">
 
+    <meta name="theme-color" content="#505F04"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#505F04"/>
+    <meta name="msapplication-navbutton-color" content="#505F04"/>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -43,8 +47,8 @@
     </header>
 
     <main>
-        <div class="Destaque flex justify-center items-center">
-            <section class="CarroselImagens brightness-75">
+        <section class="Destaque flex justify-center items-center">
+            <div class="CarroselImagens brightness-75">
                 <div class="containerCarrosel">
                     <img src="img/meio-ambiente1.jpg" alt="">
                     <img src="img/meio-ambiente2.jpg" alt="">
@@ -61,37 +65,55 @@
                     <img src="img/meio-ambiente5.jpg" alt="">
                     <img src="img/meio-ambiente6.jpg" alt="">
                 </div>
-            </section>
-            <h1 class="absolute text-ForestGreen font-bold text-4xl drop-shadow-text">MEIO-AMBIENTE</h1>
-        </div>
+            </div>
+            <h1 class="absolute text-ForestGreen font-bold text-3xl DisposG:text-4xl drop-shadow-text text-center px-8">AÇÕES QUE TRANSFORMAM O MUNDO</h1>
+        </section>
 
-        <div class="conteúdoPrincipal my-20 mx-4 DisposG:mx-12">
-            <h1 class="classEco text-5xl text-center font-bold text-ForestGreen pb-2.5">Eco<span class="classConexão text-cyan-400">Conexão</span></h1>
+        <article class="conteúdoPrincipal my-20 mx-4 DisposG:mx-12">
+            <h1 class="classEco text-4xl DisposG:text-5xl text-center font-bold text-ForestGreen pb-2.5">Eco<span class="classConexão text-cyan-400">Conexão</span></h1>
             <p class="text-green-700 text-xl font-bold text-justify DisposG:text-2xl DisposG:text-center ResponsiveBig:text-3xl">Bem-vindo ao EcoConexão - seu portal de inspiração para práticas sustentáveis e preservação do meio ambiente! Descubra maneiras impactantes pelas quais você pode contribuir para a sustentabilidade global. Junte-se a nós nessa jornada transformadora em busca de um futuro mais verde e equilibrado para o nosso planeta. Vamos agir juntos pela mudança positiva!</p>
-        </div>
-
-        <div class="VisãoGeral bg-DarkMossGreen text-white">
+        </article>
+    
+        <section class="VisãoGeral bg-DarkMossGreen text-white">
             <h1 class="text-5xl font-bold text-center py-4">Visão Geral</h1>
-            <div class="Cards flex items-center">
+            <article class="Cards flex items-center">
                 <div class="cardContainer py-3.5 ResponsiveExtraBig:py-0">
                     <h1 class="cardTitle text-3xl font-bold text-center">Energias Renováveis</h1>
                     <p class="cardDescription font-semibold">Aqui você encontrará informações sobre diversas formas de energia renováveis, promovendo um futuro mais sustentável e limpo para o nosso planeta. Descubra como essas fontes de energia podem transformar o mundo positivamente. Junte-se a nós nessa jornada rumo a um futuro mais verde e consciente!</p>
                 </div>
-                <div class="cardImg bg-white text-ForestGreen">
-                    <img src="img/meio-ambiente4.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="Cards flex items-center bg-white">
-                <div class="cardImg">
-                    <img src="img/ong-meio-ambiente.jpg" alt="">
-                </div>
+                <figure class="cardImg bg-white text-ForestGreen">
+                    <img src="img/meio-ambiente4.jpg" alt="Imagem de Energias Renováveis">
+                </figure>
+            </article>
+    
+            <article class="Cards flex items-center bg-white">
+                <figure class="cardImg">
+                    <img src="img/ong-meio-ambiente.jpg" alt="Imagem de ONGs de Meio Ambiente">
+                </figure>
                 <div class="cardContainer py-3.5 ResponsiveExtraBig:py-0 text-ForestGreen">
                     <h1 class="cardTitle text-3xl font-bold text-center">ONGs</h1>
                     <p class="cardDescription font-semibold">Aqui você encontrará informações sobre algumas ONGs dedicadas a ajudar o meio ambiente. Conheça as iniciativas e ações dessas organizações que estão trabalhando incansavelmente para proteger e preservar nosso planeta. Junte-se a nós nessa jornada de apoio às causas ambientais e descubra como você pode fazer a diferença também!</p>
                 </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="siteFooter bg-DarkMossGreen text-white px-6 py-6 flex justify-between items-center">
+        <div class="footerContent">
+            <h1 class="text-ForestGreen font-bold text-2xl">Eco<span class="text-cyan-400">Conexão</span>
+            </h1>
+            <p>© 2023 DaviRibeiroBerçocano</p>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <div class="footerNav inline-grid font-semibold">
+                <a href="">Início</a>
+                <a href="">Energias Renováveis</a>
+                <a href=""> ONGs</a>
             </div>
         </div>
-    </main>
+    </footer>
 </body>
 </html>

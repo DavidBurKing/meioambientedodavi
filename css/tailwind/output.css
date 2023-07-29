@@ -538,9 +538,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 426px) {
   .container {
-    max-width: 425px;
+    max-width: 426px;
   }
 }
 
@@ -1873,9 +1873,14 @@ video {
      object-fit: scale-down;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .py-3 {
@@ -1886,6 +1891,21 @@ video {
 .py-3\.5 {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-2 {
@@ -1952,14 +1972,14 @@ video {
   vertical-align: super;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -1970,6 +1990,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -2409,9 +2434,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 425px) {
+  @media (min-width: 426px) {
     .sm\:container {
-      max-width: 425px;
+      max-width: 426px;
     }
   }
 
@@ -2486,25 +2511,10 @@ video {
   text-align: center;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 426px) {
   .DisposG\:mx-12 {
     margin-left: 3rem;
     margin-right: 3rem;
-  }
-
-  .DisposG\:py-3 {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-  }
-
-  .DisposG\:py-3\.5 {
-    padding-top: 0.875rem;
-    padding-bottom: 0.875rem;
-  }
-
-  .DisposG\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
   }
 
   .DisposG\:text-center {
@@ -2514,6 +2524,16 @@ video {
   .DisposG\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .DisposG\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .DisposG\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 
