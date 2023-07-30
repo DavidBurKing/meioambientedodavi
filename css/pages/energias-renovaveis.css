@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+    --ForestGreen: #239D12;
+    --DarkMossGreen: #505F04;
+    --Bone: #CFCBBD; 
+}
+
+::selection {
+    color: var(--ForestGreen);
+    background-color: var(--DarkMossGreen);
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--DarkMossGreen);
+}
+
+main {
+    padding-top: 4em;
+}
+
+.energiasContent h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.energiasContent p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.energiasImageWrapper img {
+    width: 100%; /*A imagem ocupará 100% da largura do site*/
+    height: 20em; /*Altura fixa de 20em*/
+    object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
+}
+
+
+
+
+.energiasHighlightTitle {
+    font-family: 'Raleway', sans-serif;
+}
+
+.energiasCard {
+    width: 20em;
+    margin: 1em 1em;
+    border-radius: 1rem;
+    height: 100%;
+    box-shadow: 0px 4px 30px -16px #000000d5;
+}
+
+.energiasCard .energiasImageWrapper2 img{
+    width: 100%;
+    height: 14em;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.energiasCard .energiasContent2 {
+    padding: 0.5em 1em 1em 1em;
+}
+
+.energiasContent2 .energiasTitle2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.energiasContent2 .energiasDescription2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width:500px) {
+    .energiasImageWrapper img {
+        height: 100vh;
+    }
+}

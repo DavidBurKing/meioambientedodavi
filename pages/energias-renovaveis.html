@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="/css/tailwind/output.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/global/header.css">
+    <link rel="stylesheet" href="../css/pages/energias-renovaveis.css">
+    <link rel="stylesheet" href="../css/global/footer.css">
+
+    <meta name="theme-color" content="#505F04"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#505F04"/>
+    <meta name="msapplication-navbutton-color" content="#505F04"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="functions/global/header.js"></script>
+
+    <title>Document</title>
+</head>
+<body class="bg-white">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" class="font-bold">
+                    <h1 class="classEco text-ForestGreen">Eco<span class="classConexão text-cyan-400">Conexão</span></h1>
+                </a>
+            </div>
+
+            <div class="menu-icon" onclick="abrirMenu()">
+                <img src="../img/menu.png">
+            </div>
+
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+                <li>
+                    <a href="../pages/energias-renovaveis.html">Energias Renováveis</a>
+                </li>
+                <li>
+                    <a href="#">ONGs</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="energiasPresentation flex justify-center items-center">
+            <div class="energiasContent absolute text-center text-white z-10 py-3.5 px-3.5">
+                <h1 class="energiasTitle font-bold text-3xl">
+                    Conheça as Energias Renováveis e seus Benefícios
+                </h1>
+                <p class="energiasDescription font-semibold text-xl">
+                    Energias renováveis são fontes de energia sustentáveis e limpas que são naturalmente 
+                    reabastecidas e não se esgotam. Diferentemente das fontes de energia não renováveis, 
+                    como os combustíveis fósseis, as energias renováveis são obtidas a partir de recursos 
+                    naturais disponíveis no meio ambiente.
+                </p>
+            </div>
+            <figure class="energiasImageWrapper w-full brightness-50">
+                <img src="../img/energias-renovaveis1.jpg" alt="Energias Renováveis">
+            </figure>
+        </section>     
+        
+        <section class="energiasHighlight mt-20 mb-3.5">
+            <h1 class="energiasHighlightTitle font-bold text-ForestGreen text-center text-4xl mx-2">Destaques Renováveis</h1>
+            <article class="energiasCards flex justify-evenly py-3.5 flex-wrap">
+                <div class="energiasCard bg-DarkMossGreen text-white">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/meio-ambiente6.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia Solar
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia solar é obtida a partir da luz do sol e pode ser convertida em eletricidade ou calor. É uma fonte limpa e inesgotável, reduzindo as emissões de gases de efeito estufa e contribuindo para a sustentabilidade global.
+                        </p>
+                    </div>
+                </div>
+                <div class="energiasCard bg-white text-ForestGreen">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/meio-ambiente4.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia Eólica
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia eólica é gerada pelo vento, capturado por turbinas eólicas. É uma fonte abundante e renovável, não emitindo poluentes ou gases causadores do efeito estufa, sendo uma alternativa viável aos combustíveis fósseis.
+                        </p>
+                    </div>
+                </div>
+                <div class="energiasCard bg-DarkMossGreen text-white">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/energia-hidreletrica.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia Hidrelétrica
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia hidrelétrica é produzida a partir do fluxo da água em rios e barragens. É uma fonte de energia renovável e limpa, contribuindo para a geração de eletricidade sem a queima de combustíveis fósseis.
+                        </p>
+                    </div>
+                </div>
+                <div class="energiasCard bg-white text-ForestGreen">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/energia-biomassa.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia Biomassa
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia biomassa é gerada a partir de materiais orgânicos, como resíduos agrícolas e florestais. É uma forma sustentável de produzir energia e pode reduzir a dependência de combustíveis não renováveis.
+                        </p>
+                    </div>
+                </div>
+                <div class="energiasCard bg-DarkMossGreen text-white">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/energia-geotermica.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia Geotérmica
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia geotérmica é obtida do calor natural do interior da Terra. É uma fonte limpa e estável, proporcionando aquecimento e eletricidade sem emissões significativas de poluentes.
+                        </p>
+                    </div>
+                </div>
+                <div class="energiasCard bg-white text-ForestGreen">
+                    <figure class="energiasImageWrapper2">
+                        <img src="../img/energia-das-ondas-e-mares.jpg" alt="">
+                    </figure>
+                    <div class="energiasContent2">
+                        <h1 class="energiasTitle2">
+                            Energia das Ondas e Marés
+                        </h1>
+                        <p class="energiasDescription2">
+                            A energia das ondas e marés é capturada a partir do movimento das águas dos oceanos. É uma fonte promissora e renovável, com potencial para contribuir significativamente para a matriz energética.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="siteFooter bg-DarkMossGreen text-white px-6 py-6 flex justify-between items-center">
+        <div class="footerContent">
+            <h1 class="text-ForestGreen font-bold text-2xl">Eco<span class="text-cyan-400">Conexão</span>
+            </h1>
+            <a href="https://github.com/DavidBurKing" target="_blank">
+                <p class="font-semibold">© 2023 DaviRibeiroBerçocano</p>
+            </a>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <div class="footerNav inline-grid font-semibold">
+                <a href="../index.html">Início</a>
+                <a href="../pages/energias-renovaveis.html">Energias Renováveis</a>
+                <a href="#"> ONGs</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
