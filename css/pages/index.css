@@ -46,6 +46,9 @@ main {
     padding-top: 5em; /*7*/
 }
 
+
+
+/*Carrosel*/
 .Destaque {
     margin: 0em 2em 0em 2em;
 }
@@ -81,12 +84,11 @@ main {
     height: 33em;
     transition: filter 0.3s ease-in-out;
 }
+/*Carrosel*/
 
 
-/*.Destaque .CarroselImagens .containerCarrosel img:hover {
-    filter: brightness(0.8);
-}*/
 
+/*Contéudo Principal*/
 .classEco, .classConexão {
     font-family: 'Montserrat', sans-serif;
 }
@@ -94,18 +96,25 @@ main {
 .conteúdoPrincipal p {
     font-family: 'Montserrat', sans-serif;
 }
+/*Contéudo Principal*/
 
-.VisãoGeral h1, .VisãoGeral p {
+
+
+/*Visão Geral*/
+.cardTitle,
+.cardDescription {
     font-family: 'Raleway', sans-serif;
-}
-
-.VisãoGeral .Cards .cardContainer, .cardImg {
-    width: 50%;
 }
 
 .cardDescription {
     width: 396px;
     margin: 0em auto;
+    text-align: justify;
+}
+
+.cardContainer, 
+.cardImg {
+    width: 50%;
 }
 
 .cardImg img {
@@ -113,6 +122,8 @@ main {
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
 }
+/*Visão Geral*/
+
 
 
 @media (max-width:800px) {
@@ -120,7 +131,8 @@ main {
         flex-direction: column;
     }
 
-    .VisãoGeral .Cards .cardContainer, .cardImg {
+    .cardContainer, 
+    .cardImg {
         width: 100%;
     }
 

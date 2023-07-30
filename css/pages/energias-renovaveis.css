@@ -35,6 +35,8 @@ main {
     padding-top: 4em;
 }
 
+
+/*Apresentação de Energia Renovável*/
 .energiasContent h1 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -48,10 +50,10 @@ main {
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
 }
+/*Apresentação de Energia Renovável*/
 
 
-
-
+/*Destaques Renováveis*/
 .energiasHighlightTitle {
     font-family: 'Raleway', sans-serif;
 }
@@ -87,9 +89,60 @@ main {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
+/*Destaques Renováveis*/
+
+
+/*Exemplos Reais*/
+.ExamplesCardTitle,
+.ExamplesCardDescription {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ExamplesCardDescription {
+    width: 396px;
+    margin: 0em auto;
+    text-align: justify;
+}
+
+.ExamplesCardContainer,
+.ExamplesCardImage {
+    width: 50%;
+}
+
+.ExamplesCardImage img {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+}
+/*Exemplos Reais*/
+
+
+
+@media (max-width:800px) {
+    .energiasExamplesCard {
+        flex-direction: column;
+    }
+
+    .ExamplesCardContainer,
+    .ExamplesCardImage {
+        width: 100%;
+    }
+
+    .energiasExamples .energiasExamplesCard:nth-child(2) .ExamplesCardContainer:nth-child(1) {
+        order: 2;
+    }
+}
 
 @media (max-width:500px) {
     .energiasImageWrapper img {
         height: 100vh;
     }
 }
+
+@media (max-width:425px) {
+    .ExamplesCardDescription {
+        width: auto;
+        margin: 0em 1em;
+    }
+}
+
