@@ -53,6 +53,7 @@ main {
 /*Apresentação de Energia Renovável*/
 
 
+
 /*Destaques Renováveis*/
 .energiasHighlightTitle {
     font-family: 'Raleway', sans-serif;
@@ -90,6 +91,44 @@ main {
     font-weight: 600;
 }
 /*Destaques Renováveis*/
+
+
+
+/*Maquete*/
+.energiasModelTitle,
+.energiasModelDescription {
+    font-family: 'Raleway', sans-serif;
+    max-width: 700px;
+}
+
+@keyframes slides {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.energiasModelSlideshow {
+    background-color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.energiasModelCard .energiasModelSlideshow .energiasModelCarrosel {
+    display: inline-block;
+    animation: 20s slides infinite linear;
+}
+
+.energiasModelCard .energiasModelSlideshow .energiasModelCarrosel img {
+    max-width: none;
+    display: inline-block;
+    height: 16em;
+    transition: filter 0.3s ease-in-out;
+}
+/*Maquete*/
+
 
 
 /*Exemplos Reais*/
