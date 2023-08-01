@@ -114,6 +114,7 @@ main {
     background-color: #ffffff;
     overflow: hidden;
     white-space: nowrap;
+    font-size: 0px;
 }
 
 .energiasModelCard .energiasModelSlideshow .energiasModelCarrosel {
@@ -125,6 +126,7 @@ main {
     max-width: none;
     display: inline-block;
     height: 16em;
+    font-size: 1rem;
     transition: filter 0.3s ease-in-out;
 }
 /*Maquete*/
