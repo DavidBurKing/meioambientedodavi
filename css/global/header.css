@@ -110,7 +110,7 @@ header .menu-icon img{
         position: fixed;
         top: 0;
         right: 0;
-        width: 60%;
+        width: 88%;
         height: 100%;
         display: flex;
         justify-content: center;
@@ -141,8 +141,12 @@ header .menu-icon img{
     }
 }
 
-@media (max-width:325px) {
+@media (max-width:340px) {
     header nav {
         padding: 7px 27px;
+    }
+
+    header nav ul li a{
+        font-size: 1.4rem;
     }
 }
