@@ -36,17 +36,109 @@ main {
 }
 
 /*Apresentação de ONGs*/
-.energiasContent h1 {
+.ongsContent h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.energiasContent p {
+.ongsContent p {
     font-family: 'Raleway', sans-serif;
 }
 
-.energiasImageWrapper img {
+.ongsImageWrapper img {
     width: 100%; /*A imagem ocupará 100% da largura do site*/
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
 }
 /*Apresentação de ONGs*/
+
+/*Projetos de ONGs*/
+.ongsProjectsCard {
+
+}
+
+.ProjectsCardItem {
+    display: flex;
+    width: 45em;
+    margin: 1em;
+    border-radius: 1em;
+    height: 100%;
+    box-shadow: 0px 4px 30px -16px #000000d5;
+}
+
+.ProjectsCardImage {
+    width: 40%;
+}
+
+.ProjectsCardContent {
+    width: 70%;
+}
+
+.ProjectsCardImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.ProjectsCardContent .ProjectsCardTitle {
+	font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+}
+
+.ProjectsCardContent {
+    padding: 1em;
+}
+
+.ProjectsCardTitle,
+.ProjectsCardDescription {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ProjectsCardTitle {
+    font-weight: bold;
+}
+
+.ProjectsCardDescription {
+    font-weight: 600;
+    text-align: justify;
+}
+
+.ongsProjectsCard .specialProjectsCardItem {
+    flex-direction: row-reverse;
+    background-color: var(--Bone);
+    color: var(--ForestGreen);
+}
+
+/*Projetos de ONGs*/
+
+@media (max-width:700px) {
+    .ProjectsCardItem {
+        display: block;
+    }
+
+    .ProjectsCardImage {
+        width: 100%;
+        height: 15em;
+    }
+
+    .ProjectsCardContent {
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .ongsImageWrapper img {
+        height: 100vh;
+    }
+}
+
+
+/*
+.ongsProjectsCard .ProjectsCardItem:nth-of-type(2n+2) .ProjectsCardContent:nth-child(1):nth-child(1)
+
+.ongsProjectsCard .ProjectsCardItem:nth-of-type(2n+2) {
+    background-color: var(--Bone);
+    color: var(--ForestGreen);
+}
+
+*/

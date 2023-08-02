@@ -50,7 +50,7 @@ main {
 
 /*Carrosel*/
 .Destaque {
-    margin: 0em 2em 0em 2em;
+    margin: 0em 1em;
 }
 
 @keyframes slides {
@@ -84,6 +84,10 @@ main {
     height: 33em;
     transition: filter 0.3s ease-in-out;
 }
+
+.CarroselTitle {
+    font-family: 'Montserrat', sans-serif;
+}
 /*Carrosel*/
 
 
@@ -101,6 +105,7 @@ main {
 
 
 /*Visão Geral*/
+.homeOverview,
 .cardTitle,
 .cardDescription {
     font-family: 'Raleway', sans-serif;
