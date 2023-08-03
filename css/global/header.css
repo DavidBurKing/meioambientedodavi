@@ -47,6 +47,11 @@ header nav .logo a h1{
     font-size: 2.2rem;
 }
 
+.classEco,
+.classConexão {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header nav ul li{
     display: inline-block;
     padding: 10px;
