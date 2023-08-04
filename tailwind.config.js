@@ -24,7 +24,8 @@ module.exports = {
       },
       screens: {
         'DisposG': '426px',
-        'ResponsiveExtraBig': '800px',
+        'ResponsiveExtraBig': '900px',
+        'ResponsiveExtra': '800px',
         'ResponsiveBig': '690px',
         'ResponsiveMid': '500px'
       },
