@@ -59,7 +59,7 @@ main {
     font-family: 'Raleway', sans-serif;
 }
 
-.energiasCard {
+.HighlightCardItem {
     width: 20em;
     margin: 1em 1em;
     border-radius: 1rem;
@@ -69,18 +69,18 @@ main {
     transition: transform 0.2s ease-in-out;
 }
 
-.energiasCard .energiasImageWrapper2 img{
+.HighlightCardItem .HighlightCardImage img{
     width: 100%;
     height: 14em;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.energiasCard .energiasContent2 {
+.HighlightCardItem .HighlightCardContent {
     padding: 0.5em 1em 1em 1em;
 }
 
-.energiasContent2 .energiasTitle2 {
+.HighlightCardContent .HighlightCardTitle {
     font-size: 1.5rem;
     line-height: 2rem;
     font-family: 'Raleway', sans-serif;
@@ -88,12 +88,12 @@ main {
     font-weight: bold;
 }
 
-.energiasContent2 .energiasDescription2 {
+.HighlightCardContent .HighlightCardDescription {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
-.energiasCard:hover {
+.HighlightCardItem:hover {
     transform: scale(1.05);
 }
 /*Destaques Renováveis*/
@@ -102,7 +102,7 @@ main {
 
 /*Maquete*/
 .energiasModelTitle,
-.energiasModelDescription {
+.ModelCardDescription {
     font-family: 'Raleway', sans-serif;
     max-width: 700px;
 }
@@ -116,19 +116,19 @@ main {
     }
 }
 
-.energiasModelSlideshow {
+.ModelCardSlideshow {
     background-color: #ffffff;
     overflow: hidden;
     white-space: nowrap;
     font-size: 0px;
 }
 
-.energiasModelCard .energiasModelSlideshow .energiasModelCarrosel {
+.energiasModelCard .ModelCardSlideshow .CardSlideshowCarrosel {
     display: inline-block;
     animation: 20s slides infinite linear;
 }
 
-.energiasModelCard .energiasModelSlideshow .energiasModelCarrosel img {
+.energiasModelCard .ModelCardSlideshow .CardSlideshowCarrosel img {
     max-width: none;
     display: inline-block;
     height: 16em;
@@ -151,31 +151,31 @@ main {
     text-align: justify;
 }
 
-.ExamplesCardContainer,
+.ExamplesCardContent,
 .ExamplesCardImage {
     width: 50%;
 }
 
 .ExamplesCardImage img {
     width: 100%;
-    height: 20em;
+    height: 21em;
     object-fit: cover;
 }
 /*Exemplos Reais*/
 
 
 
-@media (max-width:800px) {
+@media (max-width:900px) {
     .energiasExamplesCard {
         flex-direction: column;
     }
 
-    .ExamplesCardContainer,
+    .ExamplesCardContent,
     .ExamplesCardImage {
         width: 100%;
     }
 
-    .energiasExamples .energiasExamplesCard:nth-child(2) .ExamplesCardContainer:nth-child(1) {
+    .energiasExamples .energiasExamplesCard:nth-child(2) .ExamplesCardContent:nth-child(1) {
         order: 2;
     }
 }
