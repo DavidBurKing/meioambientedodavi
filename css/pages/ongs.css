@@ -54,8 +54,8 @@ main {
 /*Apresentação de ONGs*/
 
 /*Projetos de ONGs*/
-.ongsProjectsCard {
-
+.ongsProjects {
+    margin: 5rem 0rem 0.875rem 0rem;
 }
 
 .ProjectsCardItem {
@@ -98,6 +98,7 @@ main {
     padding: 1em;
 }
 
+.ongsProjectsTitle,
 .ProjectsCardTitle,
 .ProjectsCardDescription,
 .ProjectsCardLink {
@@ -178,6 +179,7 @@ main {
     text-align: justify;
     font-weight: 600;
     margin: 0em 1em;
+    padding: 0rem 0rem 0.5rem 0rem;
 }
 
 .VoluntaryCardImage {
@@ -193,6 +195,7 @@ main {
 }
 
 /*Voluntario de ONGs*/
+
 
 @media (max-width:900px) {
     .ongsVoluntaryCard {

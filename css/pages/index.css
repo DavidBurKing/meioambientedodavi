@@ -49,7 +49,7 @@ main {
 
 
 /*Carrosel*/
-.Destaque {
+.carrosselContainer {
     margin: 0em 1em;
 }
 
@@ -62,7 +62,7 @@ main {
     }
 }
 
-.Destaque .CarroselImagens {
+.carrosselContainer .carrosselSlide {
     background-color: #ffffff;
     overflow: hidden;
     white-space: nowrap;
@@ -73,19 +73,19 @@ main {
     animation-play-state: paused;
 }*/
 
-.Destaque .CarroselImagens .containerCarrosel {
+.carrosselContainer .carrosselSlide .carrosselSlides {
     display: inline-block;
     animation: 30s slides infinite linear;
 }
 
-.Destaque .CarroselImagens .containerCarrosel img {
+.carrosselContainer .carrosselSlide .carrosselSlides img {
     max-width: none;
     display: inline-block;
     height: 33em;
     transition: filter 0.3s ease-in-out;
 }
 
-.CarroselTitle {
+.carrosselTitle {
     font-family: 'Montserrat', sans-serif;
 }
 /*Carrosel*/
@@ -101,24 +101,24 @@ main {
 
 
 /*Visão Geral*/
-.homeOverview,
-.cardTitle,
-.cardDescription {
+.homeOverviewTitle,
+.OverviewCardTitle,
+.OverviewCardDescription {
     font-family: 'Raleway', sans-serif;
 }
 
-.cardDescription {
+.OverviewCardDescription {
     width: 396px;
     margin: 0em auto;
     text-align: justify;
 }
 
-.cardContainer, 
-.cardImg {
+.OverviewCardContent, 
+.OverviewCardImg {
     width: 50%;
 }
 
-.cardImg img {
+.OverviewCardImg img {
     width: 100%; /*A imagem ocupará 100% da largura do site*/
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
@@ -128,22 +128,22 @@ main {
 
 
 @media (max-width:800px) {
-    .Cards {
+    .homeOverviewCard {
         flex-direction: column;
     }
 
-    .cardContainer, 
-    .cardImg {
+    .OverviewCardContent, 
+    .OverviewCardImg {
         width: 100%;
     }
 
-    .VisãoGeral .Cards:nth-child(2) .cardContainer:nth-child(1) {
+    .homeOverview .homeOverviewCard:nth-child(2) .OverviewCardContent:nth-child(1) {
         order: 2;
     }
 }
 
 @media (max-width:425px) {
-    .cardDescription {
+    .OverviewCardDescription {
         width: auto;
         margin: 0em 1em;
     }
