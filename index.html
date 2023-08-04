@@ -6,6 +6,7 @@
     <link href="/css/tailwind/output.css" rel="stylesheet">
     <link rel="stylesheet" href="css/pages/index.css">
     <link rel="stylesheet" href="css/global/header.css">
+    <link rel="stylesheet" href="css/global/workCredits.css">
     <link rel="stylesheet" href="css/global/footer.css">
 
     <meta name="theme-color" content="#505F04"/>
@@ -48,9 +49,9 @@
     </header>
 
     <main>
-        <section class="Destaque flex justify-center items-center">
-            <div class="CarroselImagens brightness-75">
-                <div class="containerCarrosel">
+        <section class="carrosselContainer flex justify-center items-center">
+            <article class="carrosselSlide brightness-75">
+                <div class="carrosselSlides">
                     <img src="img/meio-ambiente1.jpg" alt="">
                     <img src="img/meio-ambiente2.jpg" alt="">
                     <img src="img/meio-ambiente3.jpg" alt="">
@@ -58,7 +59,7 @@
                     <img src="img/meio-ambiente5.jpg" alt="">
                     <img src="img/meio-ambiente6.jpg" alt="">
                 </div>
-                <div class="containerCarrosel">
+                <div class="carrosselSlides">
                     <img src="img/meio-ambiente1.jpg" alt="">
                     <img src="img/meio-ambiente2.jpg" alt="">
                     <img src="img/meio-ambiente3.jpg" alt="">
@@ -66,8 +67,8 @@
                     <img src="img/meio-ambiente5.jpg" alt="">
                     <img src="img/meio-ambiente6.jpg" alt="">
                 </div>
-            </div>
-            <h1 class="CarroselTitle absolute text-ForestGreen font-bold text-3xl DisposG:text-4xl drop-shadow-text text-center px-8">AÇÕES QUE TRANSFORMAM O MUNDO</h1>
+            </article>
+            <h1 class="carrosselTitle absolute text-ForestGreen font-bold text-3xl DisposG:text-4xl drop-shadow-text text-center px-8">AÇÕES QUE TRANSFORMAM O MUNDO</h1>
         </section>
 
         <article class="conteúdoPrincipal my-20 mx-4 DisposG:mx-12">
@@ -75,39 +76,44 @@
             <p class="text-green-700 text-xl font-bold text-justify DisposG:text-2xl DisposG:text-center ResponsiveBig:text-3xl">Bem-vindo ao EcoConexão - seu portal de inspiração para práticas sustentáveis e preservação do meio ambiente! Descubra maneiras impactantes pelas quais você pode contribuir para a sustentabilidade global. Junte-se a nós nessa jornada transformadora em busca de um futuro mais verde e equilibrado para o nosso planeta. Vamos agir juntos pela mudança positiva!</p>
         </article>
     
-        <section class="VisãoGeral bg-DarkMossGreen text-white">
-            <h1 class="homeOverview text-5xl font-bold text-center py-4">
+        <section class="homeOverview bg-DarkMossGreen text-white">
+            <h1 class="homeOverviewTitle text-5xl font-bold text-center py-4">
                 Visão Geral
             </h1>
-            <article class="Cards flex items-center">
-                <div class="cardContainer py-3.5 ResponsiveExtra:py-0">
-                    <h1 class="cardTitle text-3xl font-bold text-center">
+            <article class="homeOverviewCard flex items-center">
+                <div class="OverviewCardContent py-3.5 ResponsiveExtra:py-0">
+                    <h1 class="OverviewCardTitle text-3xl font-bold text-center">
                         Energias Renováveis
                     </h1>
-                    <p class="cardDescription font-semibold">
+                    <p class="OverviewCardDescription font-semibold">
                         Aqui você encontrará informações sobre diversas formas de energia renováveis, promovendo um futuro mais sustentável e limpo para o nosso planeta. Descubra como essas fontes de energia podem transformar o mundo positivamente. Junte-se a nós nessa jornada rumo a um futuro mais verde e consciente!
                     </p>
                 </div>
-                <figure class="cardImg bg-white text-ForestGreen">
+                <figure class="OverviewCardImg bg-white text-ForestGreen">
                     <img src="img/meio-ambiente4.jpg" alt="Imagem de Energias Renováveis">
                 </figure>
             </article>
     
 
 
-            <article class="Cards flex items-center bg-white">
-                <figure class="cardImg">
+            <article class="homeOverviewCard flex items-center bg-white">
+                <figure class="OverviewCardImg">
                     <img src="img/ong-meio-ambiente.jpg" alt="Imagem de ONGs de Meio Ambiente">
                 </figure>
-                <div class="cardContainer py-3.5 ResponsiveExtraBig:py-0 text-ForestGreen">
-                    <h1 class="cardTitle text-3xl font-bold text-center">
+                <div class="OverviewCardContent py-3.5 ResponsiveExtraBig:py-0 text-ForestGreen">
+                    <h1 class="OverviewCardTitle text-3xl font-bold text-center">
                         ONGs
                     </h1>
-                    <p class="cardDescription font-semibold">
+                    <p class="OverviewCardDescription font-semibold">
                         Aqui você encontrará informações sobre algumas ONGs dedicadas a ajudar o meio ambiente. Conheça as iniciativas e ações dessas organizações que estão trabalhando incansavelmente para proteger e preservar nosso planeta. Junte-se a nós nessa jornada de apoio às causas ambientais e descubra como você pode fazer a diferença também!
                     </p>
                 </div>
             </article>
+        </section>
+
+        <section class="workCredits text-center">
+            <h1 class="workCreditsTitle text-xl">Desenvolvido por <a href="https://github.com/DavidBurKing" target="_blank" class="workCreditsLink">Davi Ribeiro Berçocano 2°A</a></h1>
+            <p class="workCreditsDescription">Colégio Cívico Militar <span>Dona Moralina Eleutério</span></p>
         </section>
     </main>
 
@@ -116,7 +122,7 @@
             <h1 class="footerTitle text-ForestGreen font-bold text-2xl">Eco<span class="text-cyan-400">Conexão</span>
             </h1>
             <a href="https://github.com/DavidBurKing" target="_blank">
-                <p class="font-semibold">© 2023 DaviRibeiroBerçocano</p>
+                <p class="font-semibold">© 2023 DaviRibeiroBerçocano (Dev)</p>
             </a>
         </div>
         <div>

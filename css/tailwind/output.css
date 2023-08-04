@@ -754,10 +754,6 @@ video {
   margin-top: 5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -2611,6 +2607,13 @@ video {
   .DisposG\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 500px) {
+  .ResponsiveMid\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
