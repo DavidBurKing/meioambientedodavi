@@ -36,15 +36,17 @@ main {
 }
 
 /*Apresentação de ONGs*/
-.ongsContent h1 {
+.PresentationCardTitle {
     font-family: 'Montserrat', sans-serif;
+    margin: 0rem 0rem 0.5rem 0rem;
 }
 
-.ongsContent p {
+.PresentationCardDescription {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
-.ongsImageWrapper img {
+.PresentationCardImage img {
     width: 100%; /*A imagem ocupará 100% da largura do site*/
     height: 20em; /*Altura fixa de 20em*/
     object-fit: cover; /*A imagem manterá a proporção e cortará o excesso para preencher a altura*/
@@ -222,7 +224,11 @@ main {
 }
 
 @media (max-width:500px) {
-    .ongsImageWrapper img {
+    .PresentationCardDescription {
+        text-align: justify;
+    }
+
+    .PresentationCardImage img {
         height: 100vh;
     }
 }
